@@ -132,8 +132,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
-AWS_ACCESS_KEY_ID = 'AKIATS7AP5VSI3MP5FMO'
-AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'amarh-portfolio'
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.eu-central-1.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 AWS_S3_OBJECT_PARAMETERS = {
